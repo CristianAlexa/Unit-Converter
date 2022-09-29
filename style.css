@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: inter;
+    font-size: 100%;
+}
+
+.wrapper {
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    background-color: #6943FF;
+    padding: 30px 50px;
+}
+
+h1 {
+    margin: 0 0 30px 0;
+    padding: 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.header input {
+    background-color: #6943FF;
+    color: white;
+    width: 120px;
+    margin: 0 0 30px 0;
+    padding: 10px;
+    font-size: 58px;
+    line-height: 1;
+    border: 2px solid #B295FF;
+    border-radius: 6px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header button {
+    background-color: white;
+    color: #3D3D3D;
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.content {
+    background-color: #1F2937;
+    padding: 25px;
+}
+
+.conversion-div {
+    background-color: #273549;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+h2 {
+    margin: 0 0 15px;
+    padding: 0;
+    color: #CCC1FF;
+    font-size: 20px;
+    font-weight: 600;
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
